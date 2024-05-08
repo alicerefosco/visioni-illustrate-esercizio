@@ -1,0 +1,867 @@
+body {
+    background-color: #FFFDE6;
+    margin: 0;
+    font-family: "myFont";
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ul, a, p, li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid img {
+    border-radius: 5px;
+    outline: 4px solid black;
+}
+
+.immagine-png {
+    margin: 100px auto;
+    width: 100%;
+}
+
+.immagine-png-flex {
+    mix-blend-mode: multiply;
+}
+
+.immagine-png-flex-sanna {
+    width: 500px;
+}
+
+.martina h1 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 225px;
+    font-size: 148px;
+    line-height: 90%;
+    height: 240px;
+    max-width: 600px;
+    align-items: center;
+
+}
+
+.adrian {
+    display: flex;
+}
+
+.martina {
+    max-width: 1380px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    height: 64px;
+    margin-top: 28px;
+    border-radius: 50px;
+    border: 4px solid #000;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+header a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 64px 0 0;
+    height: 20px;
+    display: flex;
+    max-width: 100%;
+}
+
+a:hover {
+    color: grey;
+}
+
+img:hover {
+    outline-color:#FFFDE6;
+}
+
+.mappa img:hover {
+    outline-color: #FFFDE6 ;
+}
+header ul {
+    max-width: 100%;
+    list-style-type: none;
+    display: flex;
+    margin: 64px 40px;
+    gap: 32px;
+}
+
+
+.sito a {
+    max-width: 100%;
+    margin: 0 40px 0 0;
+}
+
+.primo-blocco {
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.home {
+    display: flex;
+    gap: 32px;
+}
+
+h1 {
+    margin-left: 40px;
+    margin-top: 288px;
+    font-size: 148px;
+    line-height: 90%;
+    height: 240px;
+    max-width: 600px;
+}
+
+h2 {
+    margin-top: 227px;
+    height: 64px;
+    font-size: 32px;
+    line-height: 100%;
+    max-width: 100%;
+}
+
+h3 {
+    margin-top: 168px;
+    font-size: 32px;
+    max-width: 100%;
+    height: 32px;
+    line-height: 100%;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 100%;
+    margin-top: 5px;
+}
+
+.secondo-blocco {
+    max-width: 1200px;
+    height: fit-content;
+    margin: auto;
+}
+
+.secondo-blocco-artisti {
+    max-width: 1200px;
+    height: fit-content;
+    margin: auto;
+}
+
+.secondo-blocco-mostra {
+    max-width: 1200px;
+    height: fit-content;
+    margin: auto; 
+}
+
+.mostra-info {
+    max-width: 1200px;
+    height: fit-content;
+    margin: auto; 
+}
+
+.mostra-info-margin {
+    max-width: 1200px;
+    height: fit-content;
+    margin: auto; 
+}
+
+.inaugurazione {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.distanza2 h5 {
+    margin-left: 40px;
+    margin-top: 234px;
+    font-size: 30px;
+    line-height: 100%;
+    height: 36px;
+    padding: 0;
+}
+
+
+.artisti-mostra h5 {
+    font-size: 30px;
+    margin: 234px 0 0 40px;
+    max-width: 100%;
+}
+
+.artisti-mostra-margin h5 {
+    font-size: 30px;
+    margin: 234px 0 0 40px;
+    max-width: 100%;
+}
+
+.biografia h5 {
+    margin: 100px 0 0 40px;
+    font-size: 30px;
+    padding-right: 86px;
+}
+
+.biografia-adrian h5 {
+    margin: 300px 0 0 40px;
+    font-size: 30px;
+    padding-right: 86px;
+}
+
+.testo {
+    margin-top: 310px;
+    height: 280px;
+    max-width: 100%;
+}
+
+.testo p {
+    font-size: 22px;
+    line-height: 110%;
+    margin-bottom: 9px;
+}
+
+.testo-artisti  {
+    margin-top: 170px;
+    height: fit-content;
+    max-width: 913px;
+    line-height: 110%;
+    font-size: 22px;
+}
+
+.testo-artisti p {
+    margin-bottom: 9px;
+}
+
+.testo-artisti-flex {
+    margin-top: 350px;
+    height: fit-content;
+    max-width: 913px;
+    line-height: 110%;
+    font-size: 22px;
+}
+
+.testo-artisti-mostra {
+    margin-top: 310px;
+    height: fit-content;
+    max-width: 913px;
+    line-height: 110%;
+    font-size: 22px;
+}
+
+.testo-artisti-mostra p {
+    margin-bottom: 9px;
+}
+.testo-artisti-mostra-margin {
+    margin-top: 310px;
+    margin-left: 25px;
+    height: fit-content;
+    max-width: 913px;
+    line-height: 110%;
+    font-size: 22px;
+}
+
+.testo-artisti-mostra-margin p {
+    margin-bottom: 9px;
+}
+
+.sede {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mappa img {
+    margin-top: 40px;
+    border-radius: 5px;
+    outline: 3px solid black;
+    max-width: 900px;
+    margin-left: 70px;
+}
+
+.testo-artisti-flex p {
+    margin-bottom: 9px ;
+}
+
+.terzo-blocco {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.terzo-blocco-mostra {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.portfolio {
+    max-width: 1200px;
+    display: flex;
+    gap: 32px;
+    
+}
+
+h6 {
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 100%;
+    height: 36px;
+    max-width: 288px;
+    margin-top: 145px;
+}
+
+.grid {
+    max-width: 900px;
+    margin-top: 230px;
+    column-count: 2;
+    gap: 32px;
+}
+
+.grid-portfolio {
+    max-width: 800px;
+    margin-top: 170px;
+    column-count: 2;
+    gap: 32px;
+    margin-left: 40px;
+}
+
+.grid-portfolio img {
+    margin-left: 0;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    outline: 4px solid black;
+}
+
+.prima-colonna {
+    display: block;
+    max-width: 480.5px;
+}
+
+.seconda-colonna {
+    display: block;
+    max-width: 345.6px;
+}
+
+
+
+.bordo1 {width: 245px;}
+.bordo2 {width: 210px;}
+.bordo3 {width: 310px;}
+.bordo4 {width: 245px;}
+.bordo5 {width: 260px;}
+.bordo6 {width: 200px;}
+.bordo7 {width: 165px;}
+.bordo8 {width: 205px;}
+.bordo9 {width: 145px;}
+
+.nome-artista {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 15px 0;
+}
+
+h7, h8, h9, h10, h11, h12, h13, h14, h15, h16 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    max-width: 1280px;
+    height: 100px;
+    margin: 290px auto 0;
+    border-radius: 50px 50px 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer nav {
+    margin: 0 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-decoration-line: none;
+    display: flex;
+    gap: 160px;
+}
+
+.artisti {
+    margin: 145px 0 0 286.45px;
+}
+
+.nome a {
+    color: #000;
+    font-size: 92px;
+    line-height: 100%;
+    margin: 0;
+    height: 110px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.nome a:hover {
+    color: grey;
+}
+
+.bordo {
+    max-width: 100%;
+}
+
+.testo-artisti-flex .bordo {
+    margin: 50px 0;
+    max-width: 100%;
+}
+
+.nome {
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url(calsans.ttf);
+}
+
+@media (max-width: 1200px) {
+    header  {
+        height: 24px;
+        max-width: 330px;
+        border: 3px solid;
+        padding: 0;
+        margin: 20px auto 0;
+    }
+
+    header ul a {
+        height: 10px;
+        margin: 0;
+        height: fit-content;
+    }
+
+    header ul {
+        margin-left: 20px;
+    }
+
+    header a {
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .sito a {
+        margin: 0 20px 0 0;
+        padding: 0;
+        line-height: 100%;
+        height: fit-content;
+    }
+
+    .primo-blocco {
+        max-width: 330px;
+        height: fit-content;
+        margin: 0 auto 0;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+
+    h1 {
+        height: fit-content;
+        font-size: 64px;
+        margin: 200px 0 0 0;
+    }
+
+    .martina {
+        max-width: 330px;
+    }
+
+
+    .martina h1 {
+        font-size: 64px;
+        position: absolute;
+        height: fit-content;
+        max-width: 100%;
+        margin: 0;
+        padding-top: 30px;
+    }
+
+    .adrian h1 {
+        font-size: 64px;
+        position: absolute;
+        height: fit-content;
+        max-width: 100%;
+        margin: 0;
+        padding-top: 200px;
+    }
+
+    .immagine-png {
+        margin: 50px auto 0;
+        width: 100%;
+    }
+
+    .immagine-png-flex {
+        margin: 20px auto 0;
+        width: 100%;
+    }
+
+    .immagine-png-flex-sanna {
+        margin: 20px auto 0;
+    }
+    
+    h2 {
+        height: fit-content;
+        font-size: 22px;
+        margin-top: 5px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 5px;
+        height: fit-content;
+    }
+
+    h4 {
+        font-size: 9px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 2px 0;
+        line-height: 100%;
+    }
+
+    .secondo-blocco {
+        max-width: 330px;
+        margin: 150px auto 0;
+        height: fit-content;
+    }
+
+    .secondo-blocco-mostra {
+        max-width: 330px;
+        margin: 20px auto;
+        height: fit-content;
+    }
+
+    .mostra-info {
+        max-width: 330px;
+        margin: 150px auto 0;
+        height: fit-content;
+    }
+
+    .mostra-info-margin {
+        max-width: 330px;
+        height: fit-content;
+        margin: 40px auto 0; 
+    }
+
+
+    .secondo-blocco-artisti {
+        max-width: 330px;
+        margin: 40px auto;
+        height: fit-content;
+    }
+
+    .inaugurazione {
+        flex-direction: column;
+        gap: 0;
+        margin-left: 0;
+    }
+
+    .inaugurazione {
+        flex-direction: column;
+        gap: 0;
+        margin-left: 0;
+    }
+
+    .distanza2 h5 {
+        margin: 0;
+        padding: 0;
+    }
+
+    h5 {
+        margin: 40px 0 0 0;
+        font-size: 22px;
+        height: fit-content;
+        max-width: 330px;
+    }
+
+    .artisti-mostra h5 {
+        margin-left: 0;
+        margin-top: 170px;
+    }
+
+
+    .biografia h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+    }
+
+    .biografia-adrian h5 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .artisti-mostra-margin h5 {
+        font-size: 22px;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .testo {
+        max-width: 290px;
+        margin-top: 10px;
+        height: fit-content;
+    }
+
+    .testo p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .testo-artisti  {
+        margin-top: 10px;
+        height: fit-content;
+        max-width: 330px;
+        line-height: 100%;
+        font-size: 16px;
+    }
+    
+    .testo-artisti p {
+        margin-bottom: 9px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .testo-artisti-mostra {
+        margin-top: 10px;
+        height: fit-content;
+        max-width: 330px;
+        line-height: 100%;
+        font-size: 16px;
+    }
+
+    .testo-artisti-mostra p {
+        margin-bottom: 9px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .testo-artisti-flex {
+        margin: 10px auto 0;
+        margin-top: 10px;
+        height: fit-content;
+        max-width: 330px;
+        line-height: 100%;
+        font-size: 16px;
+    }
+
+    .testo-artisti-flex p {
+        margin-bottom: 9px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .testo-artisti-mostra-margin {
+        margin: 10px 0 0 0;
+        height: fit-content;
+        max-width: 330px;
+        line-height: 100%;
+        font-size: 16px;
+    }
+
+    .testo-artisti-mostra-margin p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    
+
+    .terzo-blocco {
+        max-width: 330px;
+        margin: 40px auto 0;
+        height: fit-content;
+    }
+
+    .terzo-blocco-mostra {
+        max-width: 330px;
+        margin: 40px auto 0;
+    }
+
+    .artisti {
+        margin: 0;
+    }
+
+    .nome {
+        margin: 0;
+        height: 40px;
+    }
+    
+    .nome a {
+        color: #000;
+        font-size: 32px;
+        text-decoration: none;
+        line-height: 100%;
+        margin-bottom: 0;
+    }
+    
+    .nome a:hover {
+        color: grey;
+    }
+    
+    .bordo {
+        max-width: 100%;
+    }
+
+    .bordo:hover {
+        color: grey;
+    }
+
+    
+    .portfolio {
+        max-width: 330px;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    h6 {
+        margin: 0;
+        font-size: 22px;
+        height: fit-content;
+        max-width: 330px;
+    }
+
+    .grid {
+        display: block;
+        max-width: 330px;
+        margin-top: 10px;
+        column-count: 2;
+        gap: 16px;
+    }
+
+    .grid img {
+        border-radius: 5px;
+        outline: 3px solid black;
+    }
+
+    .grid img:hover {
+        outline-color: #FFFDE6;
+    }
+
+
+    .grid-portfolio {
+        display: block;
+        max-width: 100%px;
+        margin-top: 20px;
+        margin-left: 0;
+        column-count: 2;
+        gap: 16px;
+    }
+
+    .prima-colonna {
+        display: block;
+        max-width: 195px;
+    }
+
+    .seconda-colonna {
+        display: block;
+        max-width: 124.4px;
+    }
+
+   
+
+    .grid-portfolio img {
+        margin-left: 0;
+        margin-bottom: 16px;
+        border-radius: 5px;
+        outline: 3px solid black;
+    }
+
+    .sede {
+        max-width: 330px;
+        margin: auto;
+    }
+    
+    .mappa img {
+        margin: 20px auto 0;
+        border-radius: 5px;
+        outline: 3px solid black;
+        max-width: 330px;
+    }
+
+    .nome-artista {
+        gap: 8px;
+        margin: 5px 0;
+    }
+
+    .bordo1 {width: 65px; border: #000 solid 0.1;}
+    .bordo2 {width: 45px;}
+    .bordo3 {width: 95px;}
+    .bordo4 {width: 60px;}
+    .bordo5 {width: 95px;}
+    .bordo6 {width: 52px;}
+    .bordo7 {width: 35px;}
+    .bordo8 {width: 55px;}
+    .bordo9 {width: 24px;}
+
+    h7, h8, h9, h10, h11, h12, h13, h14, h15, h16 {
+        font-size: 12px;
+    }
+
+    footer {
+        background-color: #000;
+        display: flex;
+        max-width: 330px;
+        height: 50px;
+        margin: 100px auto 0;
+        border-radius: 25px 25px 0 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    footer nav {
+        margin: 0 40px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+
+    footer a:hover {
+        color: rgb(205, 205, 205);
+    }
+    
+    footer ul {
+        list-style-type: none;
+        text-decoration-line: none;
+        display: flex;
+        gap: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
